@@ -1,11 +1,11 @@
-x={'apple', 'orange', 'mango', 'banana'}
+x={'apple', 'orange', 'mango', 'banana'}    #create set
 print("after creating set:",x)
 
 x.add("grape")
-print("after adding 'grapes':",x)
+print("after adding 'grapes':",x)   #adding
 
 x.remove("banana")
-print("after removing 'banana':",x)
+print("after removing 'banana':",x) #removing
 
 x.discard("mango")
-print("after discarding 'mango':",x)
+print("after discarding 'mango':",x)    #discarting
