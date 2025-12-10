@@ -6,11 +6,11 @@ print(y)
 z=x.difference(y)               #difference of x (method 1)
 print("difference of x",z)
 
-z=x.difference(y)               #difference of x (method 2)
+z=x-y                           #difference of x (method 2)
 print("difference of x",z)
 
 z=y.difference(x)               #difference of y (method 1)
 print("difference of y",z)
 
-z=y.difference(x)               #difference of y (method 2)
+z=y-x                           #difference of y (method 2)
 print("difference of y",z)
